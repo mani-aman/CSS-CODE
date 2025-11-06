@@ -1,0 +1,9 @@
+div{
+  height: 400px;
+  width: 400px;
+  background-color:greenyellow;
+  margin: 10px auto;
+  background-image:url("vibhu.jpg") ;
+  background-size: cover;
+  color: white;
+} 

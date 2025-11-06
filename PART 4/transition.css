@@ -1,0 +1,62 @@
+/* div{
+  height: 200px;
+  width: 200px;
+  background: greenyellow;
+  transition-duration: 1s;
+  transition-delay: 1s;
+  
+}
+div:hover{
+  background-color: blue;
+  border-radius: 50%;
+} */
+
+
+/* div{
+  height: 100px;
+  width: 100px;
+  background-color: greenyellow;
+  margin: 0 auto;
+  margin-top: 10px;
+  transition: margin-top 2s ease-in-out 0.2s;
+}
+
+div:hover{
+  background-color: pink;
+} */
+
+
+
+
+section{
+  margin-top: 100px;
+}
+
+
+div{
+  height: 100px;
+  width: 100px;
+  background-color: greenyellow;
+  margin: 10px;
+  border: 10px solid black;
+  
+}
+div:nth-of-type(2n){
+  background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+  background-color: #2e2c27;
+}
+
+#one{
+  transform: rotate(45deg);
+}
+#two{
+  transform: scale(0.5);
+}
+#four{
+  transform:skew(30deg) ;
+}
+#five{
+  transform: rotate(45deg) skew(30deg)  ;
+}
